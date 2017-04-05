@@ -1,0 +1,41 @@
+{
+  "name": "renovolution-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.1",
+    "mysql": "^2.13.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta11",
+    "sequelize": "^3.30.4",
+    "serve-favicon": "^2.4.2"
+  },
+  "description": "la partie serveur de l'app",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [
+    "express",
+    "passport",
+    "jwt",
+    "expresss-router",
+    "sequelize",
+    "sequelize-cli",
+    "mysql"
+  ],
+  "author": "Pierre JOSEPH",
+  "license": "ISC"
+}
